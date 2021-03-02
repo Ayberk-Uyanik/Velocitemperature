@@ -31,20 +31,20 @@ For both, special column names should be used as following:
 
 Velocity Data column names: "X", "Y", "T", "V" and "TVD_m"
 
-X: Coordinate X
+**X**: Coordinate X
 
-Y: Coordinate Y
+**Y**: Coordinate Y
 
-T: Time (miliseconds)
+**T**: Time (miliseconds)
 
-V: Interval velocities (m/s)
+**V**: Interval velocities (m/s)
 
-TVD_m: True Vertical Depth (meters)
+**TVD_m**: True Vertical Depth (meters)
 
 **Well Data**
 
-Well Data column names: "TVD_m", "T"
+Well Data column names: "TVD_m" and "T"
 
-TVD_m: True Vertical Depth (meters)
+**TVD_m**: True Vertical Depth (meters)
 
-T: Temperatures
+**T**: Temperatures
