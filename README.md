@@ -25,8 +25,26 @@ Any contributions or suggestions are welcomed.
 ## Data Import
 
 The application requires two different excel files including seismic velocities and well data. Depth data for seismic velocities is also needed for well calibration. 
-For both, special column names should be used as following: 
+For both, special column names should be used as following:
+
+**Velocity Data**
 
 Velocity Data column names: "X", "Y", "T", "V" and "TVD_m"
 
+X: Coordinate X
+
+Y: Coordinate Y
+
+T: Time (miliseconds)
+
+V: Interval velocities (m/s)
+
+TVD_m: True Vertical Depth (meters)
+
+**Well Data**
+
 Well Data column names: "TVD_m", "T"
+
+TVD_m: True Vertical Depth (meters)
+
+T: Temperatures
